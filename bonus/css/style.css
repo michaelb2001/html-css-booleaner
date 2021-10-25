@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    width: 100vw;
+}
+
+header{
+    width: 100%;
+
+    
+}
+header section{
+    background-image: url('../img/pattern.png');
+    background-color: #4ea0ff;
+    height: 150px;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    padding-top:100px;
+}
+
+main h1,p,span{
+    margin-left: 15px;
+}
+
+.tim{
+    margin-top:25px;
+    width:49%;
+    height:500px;
+}
+
+.evidenziato{
+    background-color: yellow ;
+}
+table{
+    border-collapse: collapse;
+}
+table thead tr{
+    background-color: #007fff;
+}
+
+table tbody tr:nth-child(1),tr:nth-child(3){
+    background-color: aqua;
+}
+
+footer{
+    margin-top:25px;
+    padding:15px;
+}
