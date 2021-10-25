@@ -32,11 +32,13 @@ header h1,p,span{
 .evidenziato{
     background-color: yellow ;
 }
-
+table{
+    border-collapse: collapse;
+}
 table thead tr{
-    background-color: aqua;
+    background-color: #007fff;
 }
 
-table thead tr:nth-child(1){
+table tbody tr:nth-child(1),tr:nth-child(3){
     background-color: aqua;
 }
